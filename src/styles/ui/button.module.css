@@ -1,0 +1,28 @@
+.btn {
+  border-radius: var(--border-rd);
+  color: rgba(var(--white-color), 1);
+  min-width: 8rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.default-btn {
+  background: var(--btn-background);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: var(--box-shadow);
+}
+
+.last_btn {
+  background: var(--last-btn-background);
+}
+
+.hide-login {
+  background: transparent;
+  border: 2px inset #fff;
+}
+.hide-login:hover {
+  background: var(--btn-background);
+  box-shadow: var(--inset-box-shadow);
+  box-shadow: var(--box-shadow);
+  border: none;
+}

@@ -1,0 +1,23 @@
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: calc(100vh);
+}
+
+@media (max-width: 66em) {
+  .container {
+    padding: 0 3.6rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .container {
+    padding: 0 1.6rem;
+  }
+}

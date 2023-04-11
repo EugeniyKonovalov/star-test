@@ -1,0 +1,26 @@
+.control {
+  display: flex;
+  align-items: center;
+  background-color: rgba(var(--white-color), 1);
+  border-radius: var(--border-rd);
+  height: 100%;
+  width: 100%;
+  padding: 0 1.4rem;
+  font-family: Arial, sans-serif;
+  color: rgb(var(--input-gray));
+}
+
+.control input {
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.control input::-ms-input-placeholder,
+.control input::-moz-placeholder,
+.control input::-webkit-input-placeholder {
+  font: inherit;
+  color: rgb(var(--placeholder-color));
+}
