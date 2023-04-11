@@ -26,6 +26,9 @@
 }
 
 @media (max-width: 56em) {
+  .main_form {
+    height: calc(100vh - 9.8rem - 4.8rem);
+  }
   .heading {
     font-size: 3.2rem;
     text-align: center;
